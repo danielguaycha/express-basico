@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Programa Inicial</title>
+    <link rel="stylesheet" href="plugins/bootstrap.min.css">
+</head>
+
+<body>
+    <h1>Programa Inicial</h1>
+
+    <div>
+        <div class="result">
+            
+        </div>
+        <form id="uploadFile" class="form-inline" enctype="multipart/form-data">
+            <div class="form-group">
+                <input type="file" name="file" id="file" class="form-control-file" required>
+            </div>
+            <div class="form-group ml-3">
+                <button class="btn btn-primary" type="submit">Subir Archivo</button>
+            </div>
+        </form>        
+    </div>
+
+
+    <script src="plugins/jquery.min.js"></script>
+    <script src="plugins/popper.min.js"></script>
+    <script src="plugins/bootstrap.min.js"></script>
+    <script src="plugins/axios.min.js"></script>
+
+    <script src="socket.io/socket.io.js"></script>
+    <script src="js/socket.js"></script>
+    <script src="js/http.js"></script>
+
+</body>
+</html>
